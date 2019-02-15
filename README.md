@@ -21,6 +21,8 @@ Include the ref in your project `d.ts` files !
 
 ## Members
 
+### interfaces
+
 <details><summary>SlimIO.RawEntity</summary>
 <br />
 
@@ -62,6 +64,22 @@ interface RawAlarm {
 }
 ```
 </details>
+
+### enum
+
+<details><summary>SlimIO.AlarmSeverity</summary>
+<br />
+
+```ts
+enum AlarmSeverity {
+    Critical,
+    Major,
+    Minor
+}
+```
+</details>
+
+### types
 
 <details><summary>SlimIO.CID</summary>
 <br />

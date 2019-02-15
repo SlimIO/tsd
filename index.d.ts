@@ -24,6 +24,12 @@ declare namespace SlimIO {
     }
 
     type CID = string;
+
+    enum AlarmSeverity {
+        Critical,
+        Major,
+        Minor
+    }
 }
 
 export as namespace SlimIO;

@@ -1,0 +1,2 @@
+# tsd
+SlimIO TypeScript definition

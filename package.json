@@ -1,0 +1,21 @@
+{
+  "name": "@slimio/tsd",
+  "version": "0.1.0",
+  "description": "SlimIO TypeScript definition",
+  "main": "index.d.ts",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlimIO/tsd.git"
+  },
+  "keywords": ["SlimIO", "tsd", "typescript", "definition"],
+  "author": "SlimIO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SlimIO/tsd/issues"
+  },
+  "homepage": "https://github.com/SlimIO/tsd#readme"
+}

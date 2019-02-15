@@ -1,4 +1,5 @@
 declare namespace SlimIO {
+    // Interfaces
     interface RawEntity {
         name: string;
         description: string;
@@ -23,8 +24,11 @@ declare namespace SlimIO {
         severity: number;
     }
 
-    type CID = string;
+    // Types
+    type CID = string | null;
+    type CK = string | null;
 
+    // Enum
     enum AlarmSeverity {
         Critical,
         Major,

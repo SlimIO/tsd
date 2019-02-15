@@ -93,7 +93,15 @@ enum AlarmSeverity {
 <br />
 
 ```ts
-type CID = string;
+type CID = string | null;
+```
+</details>
+
+<details><summary>SlimIO.CK</summary>
+<br />
+
+```ts
+type CK = string | null;
 ```
 </details>
 

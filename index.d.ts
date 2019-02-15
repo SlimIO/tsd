@@ -22,6 +22,8 @@ declare namespace SlimIO {
         correlateKey: string;
         severity: number;
     }
+
+    type CID = string;
 }
 
 export as namespace SlimIO;

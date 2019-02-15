@@ -63,5 +63,13 @@ interface RawAlarm {
 ```
 </details>
 
+<details><summary>SlimIO.CID</summary>
+<br />
+
+```ts
+type CID = string;
+```
+</details>
+
 ## License
 MIT

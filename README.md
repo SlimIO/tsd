@@ -3,7 +3,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/SlimIO/github/commit-activity)
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-SlimIO TypeScript definition
+SlimIO TypeScript definition. This project contains definitions that are useful across many internal projects (his saves us from having to recreate the definitions multiple times).
 
 ## Getting started
 
@@ -13,13 +13,21 @@ This package is available in the Node Package Repository and can be easily insta
 $ npm i @slimio/tsd -D
 ```
 
+> ⚠️ **-D** stand for **DevDependencies**.
+
 ## Usage example
-Include the ref in your project `d.ts` files !
+To be able to use the **SlimIO** namespace, include a [Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) at the top of your main project **d.ts** file.
 ```ts
 /// <reference types="@slimio/tsd" />
 ```
 
-## Members
+You will now be able to use the namespace within your project
+
+```ts
+declare function getAlarm(cid: SlimIO.CID, severity?: SlimIO.AlarmSeverity): SlimIO.RawAlarm;
+```
+
+## Members of SlimIO
 
 ### interfaces
 

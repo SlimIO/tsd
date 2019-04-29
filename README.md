@@ -5,7 +5,10 @@
 
 SlimIO TypeScript definition. This project contains definitions that are useful across many internal projects (his saves us from having to recreate the definitions multiple times).
 
-## Getting started
+## Requirements
+- Node.js v10 or higher
+
+## Getting Started
 
 This package is available in the Node Package Repository and can be easily installed with [npm](https://docs.npmjs.com/getting-started/what-is-npm) or [yarn](https://yarnpkg.com).
 
@@ -27,7 +30,8 @@ You will now be able to use the namespace within your project
 declare function getAlarm(cid: SlimIO.CID, severity?: SlimIO.AlarmSeverity): SlimIO.RawAlarm;
 ```
 
-## Members of SlimIO
+## API
+Members of SlimIO Namespace.
 
 ### interfaces
 

@@ -109,5 +109,8 @@ type CK = string | null;
 ```
 </details>
 
+## Dependencies
+This project have no dependencies.
+
 ## License
 MIT

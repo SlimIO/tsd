@@ -8,7 +8,7 @@
 SlimIO TypeScript definition. This project contains definitions that are useful across many internal projects (his saves us from having to recreate the definitions multiple times).
 
 ## Requirements
-- Node.js v10 or higher
+- [Node.js](https://nodejs.org/en/) v10 or higher
 
 ## Getting Started
 

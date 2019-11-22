@@ -5,7 +5,7 @@
   "main": "index.d.ts",
   "private": false,
   "engines": {
-      "node": ">=12"
+    "node": ">=12"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,9 +35,9 @@
   },
   "homepage": "https://github.com/SlimIO/tsd#readme",
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
-    "husky": "^3.0.2"
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.1.0"
   },
   "dependencies": {}
 }

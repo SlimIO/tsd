@@ -36,7 +36,7 @@
   "homepage": "https://github.com/SlimIO/tsd#readme",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/config-conventional": "^12.0.1",
     "husky": "^4.2.5"
   },
   "dependencies": {}
